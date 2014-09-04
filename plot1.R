@@ -31,7 +31,7 @@ preprocessData = function() {
 }
 
 plot1 = function(consumption) {
-  hist(consumption$Global_active_power, col = "red", xlab = "Global Active Power (kilowatts)")
+  hist(consumption$Global_active_power, col = "red", xlab = "Global Active Power (kilowatts)", main = "Global Active Power")
 }
 
 consumption = preprocessData()
